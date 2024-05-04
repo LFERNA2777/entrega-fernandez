@@ -100,7 +100,7 @@ display: grid;
 grid-template-columns: 60% 40%;
 background-color: cornflowerblue;
 align-items: center;
-font-family: Arial, Helvetica, sans-serif;
+font-family: $font2;
  }
 
 .ubicanos{
@@ -114,6 +114,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .ubicanos div p{
     font-size: 1rem;
+    font-family: $font2;
 }
 .mapa{
     display: flex;
