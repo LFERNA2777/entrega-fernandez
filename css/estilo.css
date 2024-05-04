@@ -115,6 +115,11 @@ font-family: Arial, Helvetica, sans-serif;
     height: 400px;
     background-color: rgb(125, 159, 223);
 }
+.mensaje{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
 
 .informacion{
     background-color: rgb(125, 159, 223);
