@@ -86,6 +86,7 @@ h3 {
   background-color: cornflowerblue;
   padding: 25px;
   color: black;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .reconsiderar {
@@ -140,6 +141,7 @@ h3 {
 
 .informacion div p {
   font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .beneficio {
@@ -164,7 +166,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: darksalmon;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   align-items: center;
   justify-items: center;
 }

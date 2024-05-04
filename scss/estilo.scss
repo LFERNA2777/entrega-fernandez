@@ -24,7 +24,7 @@ nav li a{
 
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font1;
     background-color: cornflowerblue;
     text-align: center;
     color: black;
@@ -34,13 +34,13 @@ h1{
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:$font1;
     color: black;
     text-align: center;
     border-radius: 10px;
     } 
 h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font1;
     background-color: cornflowerblue;
     text-align: center;
     color: black;
@@ -86,6 +86,7 @@ h3{
     background-color: cornflowerblue;
     padding: 25px;
     color: black;
+    font-family: $font2;
     
 }
 .reconsiderar{
@@ -137,6 +138,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .informacion div p{
     font-size: 1rem;
+    font-family: $font2;
 }
 
 .beneficio{
@@ -160,7 +162,7 @@ font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: darksalmon;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font2;
     align-items: center;
     justify-items: center;
    }
