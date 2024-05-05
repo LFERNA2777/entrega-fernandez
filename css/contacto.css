@@ -7,18 +7,26 @@
   row-gap: 20px;
   padding: 15px;
 }
+
 .main-informacion .informacion div p {
   font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
-.main-informacion h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-  border-radius: 10px;
-}
+
 .main-informacion .mensaje {
   display: flex;
   justify-content: space-around;
   background-color: cornflowerblue;
+}
+
+@media (max-width: 375px) {
+  .main-informacion {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 120px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+  }
 }/*# sourceMappingURL=contacto.css.map */

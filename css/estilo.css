@@ -9,6 +9,7 @@ h1 {
   background-color: cornflowerblue;
   text-align: center;
   color: black;
+  border-radius: 10px;
 }
 
 h2 {
@@ -25,6 +26,22 @@ h3 {
   color: black;
 }
 
+@media (max-width: 375px) {
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 168, 18);
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
 .nav li {
   display: inline-block;
   padding: 10px;
@@ -36,6 +53,14 @@ h3 {
   font-size: 20px;
 }
 
+@media (max-width: 375px) {
+  nav li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+  }
+}
 .main-index {
   margin-top: 25px;
   display: flex;
@@ -59,6 +84,26 @@ h3 {
   padding: 15px;
 }
 
+@media (max-width: 375px) {
+  .main-index {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: cornflowerblue;
+    padding: 25px;
+    color: black;
+  }
+  .informacion {
+    background-color: rgb(125, 159, 223);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+  }
+}
 .main-informacion {
   background-color: cornflowerblue;
   display: grid;
@@ -68,22 +113,29 @@ h3 {
   row-gap: 20px;
   padding: 15px;
 }
+
 .main-informacion .informacion div p {
   font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
-.main-informacion h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-  border-radius: 10px;
-}
+
 .main-informacion .mensaje {
   display: flex;
   justify-content: space-around;
   background-color: cornflowerblue;
 }
 
+@media (max-width: 375px) {
+  .main-informacion {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 120px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+  }
+}
 .main-problemas {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -139,6 +191,15 @@ h3 {
   font-family: "Times New Roman", Times, serif;
 }
 
+@media (max-width: 375px) {
+  .main-rueda {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+}
 .container {
   margin-top: 100px;
   display: flex;
@@ -168,6 +229,26 @@ h3 {
   font-family: "Times New Roman", Times, serif;
 }
 
+.footer-base {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #4669ab;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 375px) {
+  .footer-base {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: darksalmon;
+    font-family: "Times New Roman", Times, serif;
+    align-items: center;
+    justify-items: center;
+    font-size: 12px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -195,9 +276,6 @@ h1 {
   background-color: cornflowerblue;
   text-align: center;
   color: black;
-}
-
-.bordes-redondeados {
   border-radius: 10px;
 }
 

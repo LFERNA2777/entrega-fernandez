@@ -9,4 +9,14 @@
   text-align: left;
   background-color: rgb(125, 159, 223);
   font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 375px) {
+  .main-rueda {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=nosotros.css.map */

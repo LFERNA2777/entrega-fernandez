@@ -1,0 +1,20 @@
+.footer-base {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #4669ab;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 375px) {
+  .footer-base {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: darksalmon;
+    font-family: "Times New Roman", Times, serif;
+    align-items: center;
+    justify-items: center;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=footer.css.map */

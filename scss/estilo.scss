@@ -2,7 +2,6 @@
 
 @import "./utilities/fuentes";
 @import "./utilities/reseteo";
-
 @import "./utilities/componentes";
 
 @import "./secciones/nav.scss";
@@ -11,6 +10,7 @@
 @import "./secciones/eleginos.scss";
 @import "./secciones/nosotros.scss";
 @import "./secciones/servicios.scss";
+@import "./secciones/footer.scss";
 
 *{
     margin: 0;
@@ -38,10 +38,8 @@ h1{
     background-color: cornflowerblue;
     text-align: center;
     color: black;
-}
-.bordes-redondeados{
-    border-radius: 10px;
-}
+    border-radius: 10px;}
+
 
 h2{
     font-family:$font1;

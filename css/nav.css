@@ -7,4 +7,13 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 20px;
+}
+
+@media (max-width: 375px) {
+  nav li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=nav.css.map */
