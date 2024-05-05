@@ -7,6 +7,10 @@
 
 @import "./secciones/nav.scss";
 @import "./secciones/index.scss";
+@import "./secciones/contacto.scss";
+@import "./secciones/eleginos.scss";
+@import "./secciones/nosotros.scss";
+@import "./secciones/servicios.scss";
 
 *{
     margin: 0;
@@ -52,16 +56,16 @@ h3{
     color: black;
 }
 
-.rueda {
+.main-rueda {
     display: flex;
     flex-wrap: wrap;
-    align-items: center; /* Centra los elementos horizontalmente */
-    text-align: center; /* Centra el texto horizontalmente */
+    align-items: center; 
+    text-align: center; 
 }
 
 .rueda img {
     width: 50%;
-    margin-bottom: 10px; /* Espacio entre las imágenes y el texto */
+    margin-bottom: 10px; 
 }
 
 .text {

@@ -1,0 +1,14 @@
+ .main-rueda {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   background-color:  rgb(125, 159, 223);
+   
+
+   .text {
+     width: 100%;
+     text-align: left;
+     background-color: rgb(125, 159, 223);
+     font-family: "Times New Roman", Times, serif;
+   }
+ }
