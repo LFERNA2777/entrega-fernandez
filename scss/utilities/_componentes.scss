@@ -1,40 +1,54 @@
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: cornflowerblue;
-    text-align: center;
-    color: black;
-    border-radius: 10px;
-    }
-  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: cornflowerblue;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  &:hover{
+    transform: scale(1.5);
+    transition: 05s;
+  }
+}
+
 
 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  &:hover{
+    transform: scale(.8);
+    transition: 03s;
+  }
+  
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: cornflowerblue;
+  text-align: center;
+  color: black;
+  &:hover{
+    transform: scale(2);
+    transition: 03s;
+  }
+}
+
+
+@media (max-width: 375px) {
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 168, 18);
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+  }
+
+  h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     border-radius: 10px;
+    font-size: 12px;
   }
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: cornflowerblue;
-    text-align: center;
-    color: black;
-  }
-
-
-  @media (max-width: 375px){
-    h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: rgb(18, 168, 18);
-      text-align: center;
-      color: black;
-      border-radius: 10px;
-    }
-    h2 {
-      font-family: Arial, Helvetica, sans-serif;
-      color: black;
-      text-align: center;
-      border-radius: 10px;
-      font-size: 12px;
-    }
-  }
+}

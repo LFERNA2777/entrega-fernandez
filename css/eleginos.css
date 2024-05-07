@@ -5,12 +5,6 @@
   align-items: center;
   font-family: "Times New Roman", Times, serif;
 }
-.main-problemas h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: cornflowerblue;
-  text-align: center;
-  color: black;
-}
 .main-problemas .bordes-redondeados {
   border-radius: 10px;
 }
@@ -25,12 +19,6 @@
 .main-problemas .ubicanos div p {
   font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
-}
-.main-problemas h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-  border-radius: 10px;
 }
 .main-problemas .mapa {
   display: flex;
