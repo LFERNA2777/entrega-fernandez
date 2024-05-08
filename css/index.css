@@ -4,12 +4,11 @@
   flex-direction: row;
   align-items: stretch;
   background-color: cornflowerblue;
-  padding: 25px;
   color: black;
 }
-.main-index .reconsiderar {
-  padding: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+.main-index .considerar {
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 .main-index .informacion {
   background-color: rgb(125, 159, 223);
