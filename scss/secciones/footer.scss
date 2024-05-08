@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #4669ab;
-    font-family: "Times New Roman", Times, serif;
+    font-family: $font2;
     align-items: center;
     justify-items: center;
   }
@@ -14,7 +14,7 @@
       display: grid;
       grid-template-columns: 1fr;
       background-color: darksalmon;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: $font2;
       align-items: center;
       justify-items: center;
       font-size: 12px;

@@ -1,9 +1,10 @@
 .main-problemas {
-    display: grid;
-    grid-template-columns: 60% 40%;
+    display: flex;
     background-color: cornflowerblue;
     align-items: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family:$font2;
+    flex-direction: column;
+    
 
    
     .bordes-redondeados {
@@ -21,7 +22,7 @@
 
     .ubicanos div p {
         font-size: 1rem;
-        font-family: "Times New Roman", Times, serif;}
+        font-family: $font2;}
 
         .mapa {
             display: flex;
