@@ -6,7 +6,7 @@
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: cornflowerblue;
+  background-color: rgb(183, 201, 231);
   text-align: center;
   color: black;
   border-radius: 10px;
@@ -160,15 +160,23 @@ h3:hover {
 
 .main-rueda {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   background-color: rgb(125, 159, 223);
 }
+
+.main-rueda img {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
 .main-rueda .text {
-  width: 100%;
-  text-align: left;
+  text-align: center;
   background-color: rgb(125, 159, 223);
   font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 @media (max-width: 375px) {
@@ -253,7 +261,7 @@ nav li a {
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: cornflowerblue;
+  background-color: rgb(183, 201, 231);
   text-align: center;
   color: black;
   border-radius: 10px;
