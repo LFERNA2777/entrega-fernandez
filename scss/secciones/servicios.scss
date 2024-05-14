@@ -5,10 +5,13 @@
     background-color: cornflowerblue;
     padding: 25px;
     color: black;
+    flex-direction: column;
 }
 
 .container img {
-    height: 250px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
 }
 
 .container .parraf {

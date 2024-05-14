@@ -80,7 +80,7 @@ h3:hover {
   padding: 15px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .main-index {
     margin-top: 25px;
     display: flex;
@@ -94,7 +94,7 @@ h3:hover {
     background-color: rgb(125, 159, 223);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 120px;
+    grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;
@@ -121,7 +121,7 @@ h3:hover {
   background-color: cornflowerblue;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .main-informacion {
     background-color: cornflowerblue;
     display: grid;
@@ -180,7 +180,7 @@ h3:hover {
   font-size: 18px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .main-rueda {
     display: flex;
     flex-wrap: wrap;
@@ -202,10 +202,13 @@ h3:hover {
   background-color: cornflowerblue;
   padding: 25px;
   color: black;
+  flex-direction: column;
 }
 
 .container img {
-  height: 250px;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .container .parraf {
@@ -240,7 +243,7 @@ h3:hover {
   justify-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .footer-base {
     display: grid;
     grid-template-columns: 1fr;
@@ -315,11 +318,17 @@ h3 {
 }
 
 .container {
-  margin-top: 100px;
   display: flex;
   background-color: cornflowerblue;
   padding: 25px;
   color: black;
+  flex-direction: column;
+}
+
+.container img {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .parraf {
@@ -433,7 +442,7 @@ h3 {
   font-size: 15px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   nav li a {
     color: black;
     font-weight: bold;
@@ -466,7 +475,7 @@ h3 {
     background-color: rgb(125, 159, 223);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 120px;
+    grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;
@@ -491,7 +500,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
   }
   .container {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     background-color: cornflowerblue;
     padding: 25px;

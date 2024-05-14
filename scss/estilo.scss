@@ -75,12 +75,19 @@ h3{
 
 
 .container{
-    margin-top: 100px;
+   
     display: flex;
     background-color: cornflowerblue;
     padding: 25px;
     color: black;
-}
+    flex-direction: column;
+    }
+    .container img {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+    }
+
 .parraf{
     padding: 25px;
     font-family: $font2;
@@ -189,7 +196,7 @@ font-family: $font2;
 
 
 
-@media (max-width:375px){
+@media (max-width:600px){
 
 nav li a{
     color: black;
@@ -227,7 +234,7 @@ h2{
     background-color: rgb(125, 159, 223);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 120px;
+    grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;
@@ -254,7 +261,7 @@ h2{
      }
 
 .container{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     background-color: cornflowerblue;
     padding: 25px;

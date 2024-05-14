@@ -9,7 +9,7 @@
     .considerar {
         padding: 15px;
         font-family: $font2;
-        
+
     }
 
     .informacion {
@@ -24,7 +24,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
 
 
     .main-index {
@@ -41,7 +41,7 @@
         background-color: rgb(125, 159, 223);
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 120px;
+        grid-template-rows: 1fr;
         column-gap: 20px;
         row-gap: 20px;
         padding: 15px;
