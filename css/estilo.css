@@ -58,29 +58,33 @@ h3:hover {
     font-size: 12px;
   }
 }
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
 .main-index {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   background-color: cornflowerblue;
-  color: black;
 }
 .main-index .considerar {
-  padding: 15px;
-  font-family: "Times New Roman", Times, serif;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main-index .informacion {
   background-color: rgb(125, 159, 223);
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 120px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .main-index {
     margin-top: 25px;
     display: flex;
@@ -88,7 +92,6 @@ h3:hover {
     align-items: stretch;
     background-color: cornflowerblue;
     padding: 25px;
-    color: black;
   }
   .informacion {
     background-color: rgb(125, 159, 223);
@@ -100,33 +103,33 @@ h3:hover {
     padding: 15px;
   }
 }
-.main-informacion {
-  background-color: cornflowerblue;
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.informacion {
+  background-color: rgb(125, 159, 223);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 120px 120px;
+  grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
 }
 
-.main-informacion .informacion div p {
-  font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.main-informacion .mensaje {
+.mensaje {
   display: flex;
   justify-content: space-around;
   background-color: cornflowerblue;
 }
 
 @media (max-width: 600px) {
-  .main-informacion {
-    background-color: cornflowerblue;
+  .informacion {
+    background-color: rgb(125, 159, 223);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 120px 120px;
+    grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;
@@ -336,21 +339,16 @@ h3 {
   font-family: "Times New Roman", Times, serif;
 }
 
-.mantel {
+.main-index {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   background-color: cornflowerblue;
   padding: 25px;
-  color: black;
 }
 
-.mantel div p {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.reconsiderar {
+.considerar {
   padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -391,26 +389,26 @@ h3 {
   background-color: cornflowerblue;
 }
 
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
 .informacion {
   background-color: cornflowerblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 120px 120px;
+  grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
-}
-
-.informacion div p {
-  font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .beneficio {
   border: cornflowerblue solid 3px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 120px 120px;
+  grid-template-rows: 120% 120%;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
@@ -442,7 +440,7 @@ h3 {
   font-size: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   nav li a {
     color: black;
     font-weight: bold;
@@ -462,14 +460,13 @@ h3 {
     border-radius: 10px;
     font-size: 12px;
   }
-  .mantel {
+  .main-index {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     background-color: cornflowerblue;
     padding: 25px;
-    color: black;
   }
   .informacion {
     background-color: rgb(125, 159, 223);

@@ -13,7 +13,6 @@
   padding: 15px;
 }
 
-
 .mensaje {
   display: flex;
   justify-content: space-around;
@@ -21,7 +20,6 @@
 }
 
 @media (max-width: 600px) {
-
   .informacion {
     background-color: rgb(125, 159, 223);
     display: grid;
@@ -31,5 +29,4 @@
     row-gap: 20px;
     padding: 15px;
   }
-
-}
+}/*# sourceMappingURL=contacto.css.map */
