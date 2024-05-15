@@ -42,7 +42,7 @@ h3:hover {
   border-radius: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 670px) {
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(183, 201, 231);
@@ -135,14 +135,25 @@ h3:hover {
     padding: 15px;
   }
 }
-.main-problemas {
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.problemas {
   display: flex;
   background-color: cornflowerblue;
   align-items: center;
   font-family: "Times New Roman", Times, serif;
   flex-direction: column;
+  padding: 15px;
 }
-.main-problemas .ubicanos {
+
+.problemas img {
+  max-width: 525px;
+}
+
+.ubicanos {
   background-color: rgb(125, 159, 223);
   display: grid;
   grid-template-columns: 1fr;
@@ -150,11 +161,13 @@ h3:hover {
   padding: 15px;
   justify-items: start;
 }
-.main-problemas .ubicanos div p {
+
+.ubicanos div p {
   font-size: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
-.main-problemas .mapa {
+
+.mapa {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,6 +175,32 @@ h3:hover {
   background-color: rgb(125, 159, 223);
 }
 
+@media (max-width: 670px) {
+  .problemas {
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .problemas img {
+    width: 250px;
+    margin: auto;
+  }
+  .mapa {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 .main-rueda {
   display: flex;
   justify-content: center;
@@ -354,11 +393,16 @@ h3 {
 }
 
 .problemas {
-  display: grid;
-  grid-template-columns: 60% 40%;
+  display: flex;
   background-color: cornflowerblue;
   align-items: center;
   font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.problemas img {
+  max-width: 525px;
 }
 
 .ubicanos {
@@ -490,11 +534,28 @@ h3 {
     font-size: 10px;
   }
   .problemas {
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
     background-color: cornflowerblue;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .problemas img {
+    width: 250px;
+    margin: auto;
+  }
+  .mapa {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   .container {
     margin-top: 80px;
