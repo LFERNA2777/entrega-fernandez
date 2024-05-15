@@ -1,3 +1,10 @@
+
+.main-estilo {
+    max-width: 80%;
+    margin: auto;
+}
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -14,7 +21,7 @@
     padding: 10px;
 }
 
-.container .parraf {
+.parraf {
     padding: 25px;
     font-family: $font2;
     font-size: 18px;
@@ -25,7 +32,7 @@
     border: cornflowerblue solid 3px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 120px 120px;
+    grid-template-rows: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;
@@ -37,5 +44,22 @@
     .beneficio div p {
         font-size: 1rem;
         font-family: "Times New Roman", Times, serif;
+    }
+}
+@media (max-width:670px){
+
+    .beneficio {
+        border: cornflowerblue solid 3px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 15px;
+    }
+    .parraf {
+        padding: 25px;
+        font-family: $font2;
+        font-size: 15px;
     }
 }

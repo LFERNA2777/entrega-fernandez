@@ -201,12 +201,17 @@ h3:hover {
     height: 100%;
   }
 }
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
 .main-rueda {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(125, 159, 223);
+  background-color: 125, 159 223;
 }
 
 .main-rueda img {
@@ -217,7 +222,7 @@ h3:hover {
 
 .main-rueda .text {
   text-align: center;
-  background-color: rgb(125, 159, 223);
+  background-color: 125 159 223;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
@@ -237,6 +242,11 @@ h3:hover {
     font-size: 14px;
   }
 }
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -253,7 +263,7 @@ h3:hover {
   padding: 10px;
 }
 
-.container .parraf {
+.parraf {
   padding: 25px;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
@@ -263,7 +273,7 @@ h3:hover {
   border: cornflowerblue solid 3px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 120px 120px;
+  grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
@@ -276,6 +286,22 @@ h3:hover {
   font-family: "Times New Roman", Times, serif;
 }
 
+@media (max-width: 670px) {
+  .beneficio {
+    border: cornflowerblue solid 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+  }
+  .parraf {
+    padding: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  }
+}
 .footer-base {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -289,13 +315,31 @@ h3:hover {
   .footer-base {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: darksalmon;
+    background-color: #4669ab;
     font-family: "Times New Roman", Times, serif;
     align-items: center;
     justify-items: center;
     font-size: 12px;
   }
 }
+.estructura {
+  display: flex;
+  align-items: center;
+}
+
+.estructura img {
+  margin-right: 20px;
+}
+
+.protocolo {
+  display: flex;
+  align-items: center;
+}
+
+.protocolo img {
+  margin-right: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -376,6 +420,7 @@ h3 {
 .parraf {
   padding: 25px;
   font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 .main-index {
@@ -452,7 +497,7 @@ h3 {
   border: cornflowerblue solid 3px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 120% 120%;
+  grid-template-rows: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
   padding: 15px;
@@ -524,7 +569,7 @@ h3 {
   .base {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: darksalmon;
+    background-color: #4669ab;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-items: center;
@@ -565,11 +610,16 @@ h3 {
     color: black;
     flex-direction: column;
   }
+  .parraf {
+    padding: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  }
   .beneficio {
     border: cornflowerblue solid 3px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px 120px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
     padding: 15px;

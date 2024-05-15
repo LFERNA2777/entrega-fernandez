@@ -1,38 +1,40 @@
-.main-rueda {
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.main-rueda{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(125, 159, 223);
+  background-color: 125, 159 223;
 }
-
 .main-rueda img {
-  width: 80%;
-  margin: 10px;
-  padding: 10px;
+width: 80%;
+margin: 10px;
+padding: 10px;
 }
-
-.main-rueda .text {
+.main-rueda .text{
   text-align: center;
-  background-color: rgb(125, 159, 223);
+  background-color: 125 159 223;
   font-family: $font2;
   font-size: 18px;
 }
 
- @media (max-width: 600px) {
+@media (max-width: 600px) {
   .main-rueda {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
     flex-direction: row;
- }
- .main-rueda .text {
-  text-align: center;
-  background-color: rgb(125, 159, 223);
-  font-family: $font2;
-  font-size: 14px;
-}
- }
+  }
 
-  
+  .main-rueda .text {
+    text-align: center;
+    background-color: rgb(125, 159, 223);
+    font-family: $font2;
+    font-size: 14px;
+  }
+}
