@@ -13,10 +13,8 @@
   padding: 15px;
 }
 
-.mensaje {
-  display: flex;
-  justify-content: space-around;
-  background-color: cornflowerblue;
+.mensajeria {
+  background-color: rgb(183, 201, 231);
 }
 
 @media (max-width: 600px) {
