@@ -3,19 +3,21 @@
   margin: auto;
 }
 
-.main-rueda{
+.main-rueda {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: 125, 159 223;
 }
+
 .main-rueda img {
-width: 80%;
-margin: 10px;
-padding: 10px;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
 }
-.main-rueda .text{
+
+.main-rueda .text {
   text-align: center;
   background-color: 125 159 223;
   font-family: Arial, Helvetica, sans-serif;
@@ -30,11 +32,10 @@ padding: 10px;
     text-align: center;
     flex-direction: row;
   }
-
   .main-rueda .text {
     text-align: center;
     background-color: rgb(125, 159, 223);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
-}
+}/*# sourceMappingURL=nosotros.css.map */

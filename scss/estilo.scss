@@ -1,4 +1,4 @@
-@import "./utilities/fuentes";
+
 @import "./utilities/reseteo";
 @import "./utilities/componentes";
 
@@ -36,7 +36,7 @@ nav li a {
 }
 
 h1 {
-    font-family: $font1;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(183, 201, 231);
     text-align: center;
     color: black;
@@ -45,14 +45,14 @@ h1 {
 
 
 h2 {
-    font-family: $font1;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
     border-radius: 10px;
 }
 
 h3 {
-    font-family: $font1;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: cornflowerblue;
     text-align: center;
     color: black;
@@ -74,7 +74,7 @@ h3 {
     width: 100%;
     text-align: left;
     background-color: rgb(125, 159, 223);
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -95,7 +95,7 @@ h3 {
 
 .parraf {
     padding: 25px;
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -118,7 +118,7 @@ h3 {
     display: flex;
     background-color: cornflowerblue;
     align-items: center;
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     padding: 15px;
 }
@@ -128,7 +128,7 @@ h3 {
 }
 
 .ubicanos {
-    background-color: rgb(125, 159, 223);
+    background-color: cornflowerblue;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 10px;
@@ -138,7 +138,7 @@ h3 {
 
 .ubicanos div p {
     font-size: 1rem;
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mapa {
@@ -185,14 +185,14 @@ h3 {
 
 .beneficio div p {
     font-size: 1rem;
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .base {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: darksalmon;
-    font-family: $font2;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-items: center;
 }
@@ -268,7 +268,7 @@ h3 {
         display: flex;
         background-color: cornflowerblue;
         align-items: center;
-        font-family: $font2;
+        font-family: Arial, Helvetica, sans-serif;
         flex-direction: column;
         padding: 15px;
     }
@@ -302,7 +302,7 @@ h3 {
     }
     .parraf {
         padding: 25px;
-        font-family: $font2;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
     }
 

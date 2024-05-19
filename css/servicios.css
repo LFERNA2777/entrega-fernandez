@@ -1,0 +1,60 @@
+.main-estilo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  padding: 25px;
+  color: black;
+  flex-direction: column;
+}
+
+.container img {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.parraf {
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.beneficio {
+  border: cornflowerblue solid 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 15px;
+}
+.beneficio .beneficio div {
+  border-color: black solid 3px;
+}
+.beneficio .beneficio div p {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 670px) {
+  .beneficio {
+    border: cornflowerblue solid 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+  }
+  .parraf {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=servicios.css.map */

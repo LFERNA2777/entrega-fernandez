@@ -142,7 +142,7 @@ h3:hover {
   display: flex;
   background-color: cornflowerblue;
   align-items: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
   padding: 15px;
 }
@@ -152,7 +152,7 @@ h3:hover {
 }
 
 .ubicanos {
-  background-color: rgb(125, 159, 223);
+  background-color: cornflowerblue;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 10px;
@@ -162,7 +162,7 @@ h3:hover {
 
 .ubicanos div p {
   font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mapa {
@@ -178,7 +178,7 @@ h3:hover {
     display: flex;
     background-color: cornflowerblue;
     align-items: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     padding: 15px;
   }
@@ -221,7 +221,7 @@ h3:hover {
 .main-rueda .text {
   text-align: center;
   background-color: 125 159 223;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -236,7 +236,7 @@ h3:hover {
   .main-rueda .text {
     text-align: center;
     background-color: rgb(125, 159, 223);
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
 }
@@ -263,7 +263,7 @@ h3:hover {
 
 .parraf {
   padding: 25px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -281,7 +281,7 @@ h3:hover {
 }
 .beneficio .beneficio div p {
   font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 670px) {
@@ -296,7 +296,7 @@ h3:hover {
   }
   .parraf {
     padding: 25px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
   }
 }
@@ -304,7 +304,7 @@ h3:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #4669ab;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-items: center;
 }
@@ -314,7 +314,7 @@ h3:hover {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #4669ab;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-items: center;
     font-size: 12px;
@@ -390,7 +390,7 @@ h3 {
   width: 100%;
   text-align: left;
   background-color: rgb(125, 159, 223);
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -409,7 +409,7 @@ h3 {
 
 .parraf {
   padding: 25px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -431,7 +431,7 @@ h3 {
   display: flex;
   background-color: cornflowerblue;
   align-items: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
   padding: 15px;
 }
@@ -441,7 +441,7 @@ h3 {
 }
 
 .ubicanos {
-  background-color: rgb(125, 159, 223);
+  background-color: cornflowerblue;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 10px;
@@ -451,7 +451,7 @@ h3 {
 
 .ubicanos div p {
   font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mapa {
@@ -497,14 +497,14 @@ h3 {
 
 .beneficio div p {
   font-size: 1rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .base {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: darksalmon;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-items: center;
 }
@@ -570,7 +570,7 @@ h3 {
     display: flex;
     background-color: cornflowerblue;
     align-items: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     padding: 15px;
   }
@@ -600,7 +600,7 @@ h3 {
   }
   .parraf {
     padding: 25px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
   }
   .beneficio {
